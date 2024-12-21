@@ -1,0 +1,29 @@
+body {
+  direction: rtl;
+  margin: 5px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #1E90FF; /* Changed to a deeper blue */
+}
+
+nav {
+  background-color: #B22222; /* Dark red, more football-team-like */
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#item-flex {
+  background-color: rgba(220, 236, 2, 0.7);
+  margin: 5px;
+  padding: 5px;
+  text-emphasis-color: red;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
